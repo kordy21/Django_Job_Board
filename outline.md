@@ -31,3 +31,10 @@ Home
 
 accounts(login)
 
+
+
+
+Relation :
+    - One to many     [ authoe - posts ] Foreginkey
+    - Many to many    [ user(admin) - groups ] Many to many
+    - One to one      [ user - profile ] One to one
