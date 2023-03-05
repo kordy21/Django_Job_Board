@@ -38,3 +38,7 @@ Relation :
     - One to many     [ authoe - posts ] Foreginkey
     - Many to many    [ user(admin) - groups ] Many to many
     - One to one      [ user - profile ] One to one
+
+
+static file : [frontend] image , css , js
+media file : [upload] image 
