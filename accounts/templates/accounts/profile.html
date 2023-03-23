@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+{% load bootstrap4 %}
+{% block content %}
+<h3>Profile Summery</h3>
+<ul>
+    <li>Name: <span>{{profile}}</span></li>
+    <li>Email: <span>{{profile.user.email}}</span></li>
+    <li>Phone: <span>{{profile.phone_number}}</span></li>
+    <li>Address: <span>{{profile.city}}</span></li>
+</ul>
+<a href="{% url 'accounts:profile_edit' %}" class="boxed-btn3 w-100">Edit Profile</a>
+{% endblock %}
