@@ -14,7 +14,7 @@ def signup(request):
             username=form.cleaned_data=['username']
             password=form.cleaned_data=['password2']
             user = authenticate(username=username, password=password)
-            # print("done")
+            print("done")
             login(request,user)
             return redirect('/accounts/profile')
     else:
